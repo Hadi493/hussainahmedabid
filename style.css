@@ -1,0 +1,29 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+::selection {
+    color: #fff;
+    background-color: #1A3352;
+}
+
+@media (max-width: 600px) {
+    .page-1 .nav a{
+        display: none;
+    }
+
+    .page-1 .nav h1 {
+        font-size: 15px;
+    }
+
+    .page-1 .nav i {
+        display: block;
+    }
+
+
+    .page-1 .mobile-menu {
+        display: block;
+    }
+}
+
