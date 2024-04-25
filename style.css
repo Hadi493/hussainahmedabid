@@ -13,8 +13,13 @@
         display: none;
     }
 
+    .page-1 .nav {
+        width: 80%;
+    }
+
     .page-1 .nav h1 {
         font-size: 15px;
+        font-weight: 800;
     }
 
     .page-1 .nav i {
@@ -24,6 +29,31 @@
 
     .page-1 .mobile-menu {
         display: block;
+    }
+
+    .page-1 .container {
+        /* flex-direction: column-reverse; */
+        flex-wrap: wrap;
+    }
+
+    .page-1 .container .hero-img {
+        width: 80%;
+        height: 40%;
+    }
+
+    .page-1 .container .text {
+        width: 90%;
+    }
+
+    .page-1 .container .text h1{
+        font-size: 30px;
+    }
+
+    .page-1 .container .text h3 {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 300;
+        margin-top: 15px;
     }
 }
 
