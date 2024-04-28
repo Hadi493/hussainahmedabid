@@ -8,6 +8,13 @@
     background-color: #1A3352;
 }
 
+.social-media {
+    bottom: 3%;
+    right: 2%;
+}
+
+
+
 @media (max-width: 600px) {
     .page-1 .nav a{
         display: none;
